@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criaçâo de Sites</title>
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+    <body>
+        <header>
+            <div id="logo"><img src="./imagens/cimol.png"/></div>
+            <div id="ident"><h1>Escola Técnica Estadual Monteiro Lobato</h1></div> 
+            <nav>
+                <ul>
+                    <li><a href="">Ínicio</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="icon-menu"><img src="./imagens/menu-amburger.png"/></div>
+        </header> 
+        <main>
+            <img id="img-fundo" src="./imagens/logo2.png" />
+        </main>
+        <footer>
+
+        </footer>
+        <script>
+            document.querySelector("nav").style.display("none")
+            icon=document.querySelector("#icon-menu");
+            icon.onClick =
+                function(){
+                    nav=document.querySelector("nav");
+                    if (nav.style.display=="none")
+                        nav.style.display="block";      
+                    else
+                        nav.style.display="none";  
+                }
+        </script>   
+    </body>
+</html>

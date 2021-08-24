@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #666;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+header #logo{
+    width: 20vw
+}
+
+header #logo img{
+    width: 100%;
+}
+
+header #icon-menu{
+    width: 20vw;
+}
+
+header #icon-menu img{
+    width: 20vw;
+}
+
+header #ident{
+    width: 50%;
+}
+
+header #ident h1{
+    font-size: 18px;
+}
+
+head nav{
+    width: 100vw;
+}
+
+nav ul{
+    background-color: darkgray;
+    width: 100vw;
+    list-style: none;
+}
+
+
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#img-fundo{
+    position: absolute;
+    z-index: 0;
+    opacity: 0.6;
+    width: 100vw;
+}
+
+@media only screen and (min-width: 375px){
+
+}
+
+@media only screen and (min-width: 667px){
+
+}
+
+@media only screen and (min-width: 1440px){
+
+}
